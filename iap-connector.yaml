@@ -19,8 +19,7 @@ resources:
 - name: iap-connector
   type: iap-connector.py
   properties:
-    zone: <ZONE>
-    serviceAccountName: <PROJECT_NUMBER>@cloudservices.gserviceaccount.com
+    serviceAccountName: 532654368535@cloudservices.gserviceaccount.com
     routing:
      - name: hr
        mapping:
