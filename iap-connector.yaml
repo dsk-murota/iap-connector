@@ -28,5 +28,5 @@ resources:
           source: internal-app-frontend.bc-labs.web-dsk.net
           destination: internal-app-backend.bc-labs.web-dsk.net
     tls:
-     - byondcorp-labs-internal-app
+     - internal-app-frontend
 
