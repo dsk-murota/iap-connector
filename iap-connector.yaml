@@ -25,8 +25,8 @@ resources:
      - name: aws
        mapping:
         - name: aws-host
-          source: test.ent.labs.web-dsk.net
-          destination: internal-app.bc-labs.web-dsk.net
+          source: internal-app-frontend.bc-labs.web-dsk.net
+          destination: internal-app-backend.bc-labs.web-dsk.net
     tls:
      - byondcorp-labs-internal-app
 
