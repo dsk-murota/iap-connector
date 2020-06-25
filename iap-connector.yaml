@@ -22,19 +22,11 @@ resources:
     zone: asia-northeast1
     serviceAccountName: 532654368535@cloudservices.gserviceaccount.com
     routing:
-     - name: hr
+     - name: aws
        mapping:
-        - name: host
-          source: www.hr-domain.com
-          destination: hr-internal.domain.com
-        - name: sub
-          source: sheets.hr-domain.com
-          destination: sheets.hr-internal.domain.com
-     - name: finance
-       mapping:
-        - name: host
-          source: www.finance-domain.com
-          destination: finance-internal.domain.com
+        - name: aws-host
+          source: test.ent.labs.web-dsk.net
+          destination: internal-app.bc-labs.web-dsk.net
     tls:
      - cert1
      - cert2
