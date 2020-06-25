@@ -19,7 +19,7 @@ resources:
 - name: iap-connector
   type: iap-connector.py
   properties:
-    zone: asia-northeast1
+    zone: us-central1-a
     serviceAccountName: 532654368535@cloudservices.gserviceaccount.com
     routing:
      - name: aws
