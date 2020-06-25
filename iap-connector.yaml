@@ -28,6 +28,5 @@ resources:
           source: test.ent.labs.web-dsk.net
           destination: internal-app.bc-labs.web-dsk.net
     tls:
-     - cert1
-     - cert2
+     - byondcorp-labs-internal-app
 
