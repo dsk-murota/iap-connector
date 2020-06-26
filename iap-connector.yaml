@@ -19,7 +19,7 @@ resources:
 - name: iap-connector
   type: iap-connector.py
   properties:
-    zone: us-central1-a
+    zone: asia-northeast1-c
     serviceAccountName: 532654368535@cloudservices.gserviceaccount.com
     routing:
      - name: aws
@@ -28,5 +28,5 @@ resources:
           source: internal-app-frontend.bc-labs.web-dsk.net
           destination: internal-app-backend.bc-labs.web-dsk.net
     tls:
-     - internal-app-frontend
+     - lb-internal-app-aws
 
