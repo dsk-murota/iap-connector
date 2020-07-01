@@ -55,7 +55,7 @@ properties:
   machineType:
     type: string
     description: The machine type to use for cluster nodes.
-    default: f1-micro
+    default: g1-small
   routing:
     type: array
     description: Routing maps
