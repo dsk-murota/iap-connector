@@ -51,7 +51,7 @@ properties:
   replicas:
     type: integer
     description: Initial number of replica for ambassador deployment.
-    default: 3
+    default: 1
   machineType:
     type: string
     description: The machine type to use for cluster nodes.
