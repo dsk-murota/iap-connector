@@ -51,11 +51,11 @@ properties:
   replicas:
     type: integer
     description: Initial number of replica for ambassador deployment.
-    default: 1
+    default: 3
   machineType:
     type: string
     description: The machine type to use for cluster nodes.
-    default: g1-small
+    default: n1-standard-1
   routing:
     type: array
     description: Routing maps
